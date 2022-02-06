@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import {movieAction} from "../store/actions/movieAction";
+import { movieAction } from "../store/actions/movieAction";
 import Navbar from "../components/Navbar";
 import Movie from "../components/Movie";
 import Pagination from "../components/Pagination";
@@ -20,7 +20,7 @@ const Home = () => {
   };
 
   return (
-    <div >
+    <div>
       <Navbar changeHandler={changeHandler} value={value} />
       <Movie />
       <Pagination value={value} />

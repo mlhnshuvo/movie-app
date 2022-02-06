@@ -16,7 +16,7 @@ const Details = () => {
   return (
     <div className="my-10 max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 text-gray-300 border py-4">
       <div className="flex flex-wrap gap-10 justify-between">
-        <div className="w-72">
+        <div className="w-96">
           <div className="flex gap-3">
             <img
               src={`https://image.tmdb.org/t/p/w500/${data.movieDetails.poster_path}`}
@@ -40,7 +40,7 @@ const Details = () => {
               </p>
             </div>
           </div>
-          <p className="text-2xl font-bold ">Overview</p>
+          <p className="text-2xl font-bold">Overview</p>
           <p>{data.movieDetails.overview}</p>
         </div>
         <img
